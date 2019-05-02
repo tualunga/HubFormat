@@ -1,0 +1,17 @@
+spring:
+    datasource:
+        driver-class-name: com.mysql.jdbc.Driver
+        url: jdbc:mysql://localhost:3306/csm_db?useSSL=false
+        username: root
+        password:
+    jpa:
+        show-sql: true
+
+future.icon:
+    environment: local
+
+logging:
+    level:
+        org.apache.http.wire: TRACE
+        org.hibernate.sql: DEBUG
+        org.hibernate.type.descriptor.sql: TRACE

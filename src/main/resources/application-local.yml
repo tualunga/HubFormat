@@ -1,0 +1,20 @@
+spring:
+    flyway:
+        locations: ["classpath:db/migration/common"]
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/postgres?useSSL=false
+        username: postgres
+        password: Jmeaobvbvd
+        platform: postgres
+    jpa:
+        show-sql: true
+        generate-ddl: true
+        database: postgresql
+
+logging:
+    level:
+        org.hibernate.engine.jdbc.env.internal.LobCreatorBuilderImpl: ERROR
+
+
+

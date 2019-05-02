@@ -1,0 +1,24 @@
+server:
+    port: 8080
+    use-forward-headers: true
+
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://localhost:5432/postgres?useSSL=false
+        username: postgres
+        password: Jmeaobvbvd
+        platform: postgres
+    profiles:
+        active: '@activatedProperties@'
+    application:
+        name: '@project.name@'
+    jpa:
+        open-in-view: false
+        database-platform: org.hibernate.dialect.MariaDB53Dialect
+    flyway:
+        locations: ["classpath:db/migration/common"]
+
+application:
+    encoding: '@project.build.sourceEncoding@'
+    java.version: '@java.version@'

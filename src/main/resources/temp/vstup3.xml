@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<HBDF>
+<TypeOfDevice>
+<device>
+<id>1</id>
+<name>Anthropometer</name>
+</device>
+<device>
+<id>2</id>
+<name>Tape Meter</name>
+</device>
+</TypeOfDevice>
+<PersonalInformation>
+<person device='1'>
+<id>1</id>
+<name>Kolos</name>
+<weight>90</weight>
+<height>188</height>
+<age>24</age>
+<date>2017-03-10</date>
+</person>
+<person device='2'>
+<id>2</id>
+<name>Kolos</name>
+<weight>90</weight>
+<height>188</height>
+<age>24</age>
+<date>2017-03-07</date>
+</person>
+</PersonalInformation>
+<TypeOfMeasurement>
+<ISO_7250>
+<Head>
+<extent person='1'>
+<measurement>Gnathion (gn) </measurement>
+<value>45</value>
+</extent>
+</Head>
+<Torso>
+</Torso>
+<Arm>
+</Arm>
+<Leg>
+</Leg>
+</ISO_7250>
+<Tailoring>
+<Torso>
+<extent person='2'>
+<measurement type='Shoulder'>Breadth (sh)</measurement>
+<value>100</value>
+</extent>
+</Torso>
+<Arm>
+<extent person='2'>
+<measurement>Wrist circ. </measurement>
+<value>14</value>
+</extent>
+</Arm>
+<Leg>
+<extent person='2'>
+<measurement>Outseam l. </measurement>
+<value>45</value>
+</extent>
+</Leg>
+</Tailoring>
+</TypeOfMeasurement>
+</HBDF>
