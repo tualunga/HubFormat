@@ -13,7 +13,7 @@ public interface HbdfRepository extends JpaRepository<HbdfEntity, Integer> {
 
     List<HbdfEntity> findAll();
 
-    Optional<HbdfEntity> findById(String id);
+    Optional<HbdfEntity> findById(Integer id);
 
-    Optional<HbdfEntity> findByName(String name);
+
 }

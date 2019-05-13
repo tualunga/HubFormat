@@ -1,7 +1,6 @@
 create table hbdf_table
 (
     id             serial not null
-        constraint hbdf_table_pk
             primary key,
     name           varchar(50),
     date           date,

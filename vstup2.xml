@@ -1,100 +1,99 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hbdf>
     <personalinformation>
-        <name>KAKA</name>
-        <weight>59</weight>
-        <height>164</height>
-        <age>18</age>
-        <date>2018-03-07</date>
+        <name>Adam</name>
+        <weight>74</weight>
+        <height>184</height>
+        <age>24</age>
+        <date>2017-03-07</date>
     </personalinformation>
-    <typeofdevice>Anthropometer</typeofdevice>
+    <typeofdevice>TapeMeter</typeofdevice>
     <typeofmeasurement>
         <iso_7250>
             <head>
                 <extent>
                     <measurement>height</measurement>
                     <type>Sellion</type>
-                    <value>180</value>
+                    <value>45</value>
                 </extent>
                 <extent>
                     <measurement>height</measurement>
                     <type>Gnathion</type>
-                    <value>154</value>
+                    <value>190</value>
                 </extent>
                 <extent>
                     <measurement>circ</measurement>
                     <type>Gnathion</type>
-                    <value>53</value>
+                    <value>138</value>
                 </extent>
             </head>
             <arm>
                 <extent>
                     <measurement>height</measurement>
                     <type>Elbow</type>
-                    <value>123</value>
+                    <value>45</value>
                 </extent>
                 <extent>
                     <measurement>height</measurement>
                     <type>Hand</type>
-                    <value>93</value>
+                    <value>190</value>
                 </extent>
                 <extent>
                     <measurement>circ</measurement>
                     <type>Hand</type>
-                    <value>20</value>
+                    <value>138</value>
                 </extent>
             </arm>
             <torso>
                 <extent>
                     <measurement>height</measurement>
                     <type>Acromion</type>
-                    <value>153</value>
+                    <value>45</value>
                 </extent>
                 <extent>
-                    <measurement>breadth</measurement>
+                    <measurement>Breadth</measurement>
                     <type>Acromion</type>
+                    <value>190</value>
+                </extent>
+                <extent>
+                    <measurement>circ</measurement>
+                    <type>Acromion</type>
+                    <value>138</value>
+                </extent>
+                <extent>
+                    <measurement>height</measurement>
+                    <type>Neck</type>
                     <value>45</value>
                 </extent>
                 <extent>
                     <measurement>circ</measurement>
-                    <type>Acromion</type>
-                    <value>110</value>
+                    <type>Neck</type>
+                    <value>190</value>
                 </extent>
                 <extent>
                     <measurement>height</measurement>
-                    <type>Neck</type>
-                    <value>165</value>
+                    <type>Umbilicius</type>
+                    <value>45</value>
                 </extent>
                 <extent>
                     <measurement>circ</measurement>
-                    <type>Neck</type>
-                    <value>36</value>
+                    <type>Umbilicius</type>
+                    <value>98</value>
                 </extent>
-                <extent>
-                    <measurement>height</measurement>
-                    <type>Umbilicus</type>
-                    <value>110</value>
-                </extent>
-                <extent>
-                    <measurement>circ</measurement>
-                    <type>Umbilicus</type>
-                    <value>83</value>
-                </extent>
-
                 <extent>
                     <measurement>height</measurement>
                     <type>Crotch</type>
-                    <value>84</value>
+                    <value>23</value>
                 </extent>
                 <extent>
                     <measurement>height</measurement>
                     <type>Iliac spine</type>
-                    <value>100</value>
+                    <value>78</value>
                 </extent>
                 <extent>
                     <measurement>breadth</measurement>
                     <type>Iliac spine</type>
-                    <value>40</value>
+                    <value>89</value>
                 </extent>
                 <extent>
                     <measurement>height</measurement>
@@ -106,12 +105,12 @@
                 <extent>
                     <measurement>height</measurement>
                     <type>Knee</type>
-                    <value>43</value>
+                    <value>89</value>
                 </extent>
                 <extent>
                     <measurement>circ</measurement>
                     <type>Knee</type>
-                    <value>40</value>
+                    <value>10</value>
                 </extent>
                 <extent>
                     <measurement>height</measurement>
@@ -126,14 +125,14 @@
                 <extent>
                     <measurement>height</measurement>
                     <type>Foot</type>
-                    <value>-5</value>
+                    <value>30</value>
                 </extent>
             </leg>
         </iso_7250>
         <tailoring>
             <torso>
                 <extent>
-                    <measurement>Circ</measurement>
+                    <measurement>circ</measurement>
                     <type>Neck</type>
                     <value>34</value>
                 </extent>
@@ -143,7 +142,7 @@
                     <value>34</value>
                 </extent>
                 <extent>
-                    <measurement>Circ</measurement>
+                    <measurement>circ</measurement>
                     <type>Shoulder</type>
                     <value>12</value>
                 </extent>

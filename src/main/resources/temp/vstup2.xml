@@ -31,7 +31,6 @@
                 <extent>
                     <measurement>height</measurement>
                     <type>Elbow</type>
-                    <shortcut>ew</shortcut>
                     <value>45</value>
                 </extent>
                 <extent>
@@ -64,7 +63,6 @@
                 <extent>
                     <measurement>height</measurement>
                     <type>Neck</type>
-                    <shortcut>nk</shortcut>
                     <value>45</value>
                 </extent>
                 <extent>
@@ -74,13 +72,12 @@
                 </extent>
                 <extent>
                     <measurement>height</measurement>
-                    <type>Umbilicius</type>
-                    <shortcut>us</shortcut>
+                    <type>Umbilicus</type>
                     <value>45</value>
                 </extent>
                 <extent>
                     <measurement>circ</measurement>
-                    <type>Umbilicius</type>
+                    <type>Umbilicus</type>
                     <value>98</value>
                 </extent>
                 <extent>
