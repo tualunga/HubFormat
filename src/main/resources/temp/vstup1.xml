@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <hbdf>
     <personalinformation>
-        <name>KAKA</name>
-        <weight>59</weight>
-        <height>164</height>
-        <age>18</age>
-        <date>2018-03-07</date>
+        <name>Mojra</name>
+        <weight>85</weight>
+        <height>190</height>
+        <age>22</age>
+        <date>2018-05-01</date>
     </personalinformation>
     <typeofdevice>Anthropometer</typeofdevice>
     <typeofmeasurement>

@@ -5,9 +5,8 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.dataformat.xml.XmlMapper;
 import com.zyxo.hubformatapp.base.repository.HbdfRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("archive")
@@ -33,6 +32,18 @@ public class Archive {
         }
 
         return "V databaze sa nenachadzaju ziadne zaznamy.";
+    }
+
+
+    @RequestMapping(value = "/by", method = RequestMethod.GET)
+    public String calculate(@RequestParam String name) {
+        try {
+            return objectMapper.writeValueAsString(hbdfRepository.findByName(name));
+        } catch (JsonProcessingException e) {
+            e.printStackTrace();
+        }
+
+        return "V databaze sa nenachadzaju ziadne zaznamy s tymto menom.";
     }
 
 
